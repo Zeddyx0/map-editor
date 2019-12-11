@@ -1,0 +1,86 @@
+{
+	"overlay1": [
+		{
+			"gm_accessors_": {
+				"strokeColor": null,
+				"strokeOpacity": null,
+				"strokeWeight": null,
+				"fillColor": null,
+				"fillOpacity": null,
+				"bounds": null,
+				"draggable": null,
+				"editable": null,
+				"type": null,
+				"visible": null
+			},
+			"strokeColor": "#1E90FF",
+			"gm_bindings_": {
+				"strokeColor": {},
+				"strokeOpacity": {},
+				"strokeWeight": {},
+				"fillColor": {},
+				"fillOpacity": {},
+				"bounds": {},
+				"draggable": {},
+				"editable": {},
+				"type": {},
+				"visible": {}
+			},
+			"strokeWeight": 1,
+			"fillColor": "#1E90FF",
+			"fillOpacity": 0.4,
+			"bounds": {
+				"south": -2.926498786049005,
+				"west": -165.05217822265627,
+				"north": 12.785100135428268,
+				"east": -141.32170947265627
+			},
+			"draggable": true,
+			"editable": false,
+			"type": "rectangle",
+			"visible": true
+		}
+	], 
+	"overlay2": [
+		{
+			"gm_accessors_": {
+				"strokeColor": null,
+				"strokeOpacity": null,
+				"strokeWeight": null,
+				"fillColor": null,
+				"fillOpacity": null,
+				"bounds": null,
+				"draggable": null,
+				"editable": null,
+				"type": null,
+				"visible": null
+			},
+			"strokeColor": "#1E90FF",
+			"gm_bindings_": {
+				"strokeColor": {},
+				"strokeOpacity": {},
+				"strokeWeight": {},
+				"fillColor": {},
+				"fillOpacity": {},
+				"bounds": {},
+				"draggable": {},
+				"editable": {},
+				"type": {},
+				"visible": {}
+			},
+			"strokeWeight": 1,
+			"fillColor": "#1E90FF",
+			"fillOpacity": 0.4,
+			"bounds": {
+				"south": -8.173347081250707,
+				"west": 170.86579052734373,
+				"north": 2.8718059499655015,
+				"east": -176.30217822265627
+			},
+			"draggable": true,
+			"editable": false,
+			"type": "rectangle",
+			"visible": true
+		}
+	]
+}

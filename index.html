@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Drawing Tools</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="historyManager.js"></script>	
+	<script src="mapThemes.js"></script>	
+	<script src="index.js"></script>	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzunGwIF2OwsfrOkIC_8bhh0OPGZXo52Y&libraries=drawing&callback=initMap" async defer></script>
+	
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+  </head>
+  <body>
+	<div id = "ControlPanel">
+		<div id = "ControlButtons">
+			<button onclick="deleteAllShape()" accesskey="c">Clear All</button>
+			<button onclick="deleteSelectedShape()" accesskey="b">Delete Selected</button>
+			<button onclick="undo()" accesskey="n">Undo</button>
+			<button onclick="redo()" accesskey="n">Redo</button>
+			<input type="checkbox" name="draggableCB" id="draggableCB" value="false"> Lock all shapes location<br>
+		</div>
+		
+		<div id = "SecondRow">
+			<div id = "LineThickness">
+				<p>Line thickness: <input type="range" min="20" max="100" value="1" class="slider" id="thicknessRange"> </p>
+				<p>Value: <span id="thicknessRangeVal"></span></p>
+			</div>	
+			
+			<div id = "ColourOpacity">
+				<p>Colour opacity: <input type="range" min="10" max="100" value="40" class="slider" id="colourOpacity"> </p>
+				<p>Value: <span id="opacityRangeVal"></span></p>
+			</div>
+		</div>
+		<div id = "ThirdRow">
+			<div id="FillColour">
+				<p> Fill Colour:</p> <div id="color-palette1"></div> 
+			</div>
+		</div>
+	</div>
+	
+    <div id="style-selector-control"  class="map-control">
+      <select id="style-selector" class="selector-control">
+        <option value="default" selected="selected">Default</option>
+        <option value="silver">Silver</option>
+        <option value="night">Night mode</option>
+        <option value="retro">Retro</option>
+        <option value="paleDawn">Pale Dawn</option>
+        <option value="avocadoWorld">Avocado World</option>
+        <option value="bright">Bright</option>
+        <option value="turquoise">Turquoise</option>
+        <option value="hiding">Hide features</option>
+      </select>
+    </div>
+	
+	
+	<div id="map"></div>
+	
+
+  </body>
+</html>

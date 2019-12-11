@@ -1,0 +1,22 @@
+All shapes = !==undefined
+White Vertices = >=0  = !==undefined
+
+Dark Vertices = undefined
+
+ClearSelection (CS): 
+1- Freezes vertices 
+2- Deselects Shape
+
+
+
+
+Prevents passage TO CS, give pass to dark vertices
+if (e.vertex !== undefined){
+clearSelection();
+
+Grants passage to CS, move white freeze dark
+if (e.vertex == undefined){
+clearSelection();
+
+
+issues: an event is being registered twice
